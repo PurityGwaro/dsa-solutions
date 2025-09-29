@@ -19,7 +19,7 @@ const palindromePointerSolution = (s) => {
         while (left < right && !isAlphanumeric(s[left])) {
             left++
         }
-        while (left < right && isAlphanumeric(s[right])) {
+        while (left < right && !isAlphanumeric(s[right])) {
             right--
         }
         if (s[left].toLowerCase() !== s[right].toLowerCase()) {
@@ -30,3 +30,6 @@ const palindromePointerSolution = (s) => {
     }
     return true
 }
+
+// console.log("REVERSE SOLUTION:::",palindromReverseSolution("hello"))
+// console.log("POINTER SOLUTION:::",palindromePointerSolution("hello"))
