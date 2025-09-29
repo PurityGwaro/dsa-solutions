@@ -31,5 +31,5 @@ const palindromePointerSolution = (s) => {
     return true
 }
 
-// console.log("REVERSE SOLUTION:::",palindromReverseSolution("hello"))
-// console.log("POINTER SOLUTION:::",palindromePointerSolution("hello"))
+// console.log("REVERSE SOLUTION:::",palindromReverseSolution("A man, a plan, a canal: Panama"))
+// console.log("POINTER SOLUTION:::",palindromePointerSolution("A man, a plan, a canal: Panama"))
