@@ -4,7 +4,7 @@
 // cannot use the same number twice
 // return indices of the two numbers
 
-// Solution 1 - Brute Force O(n^2) time - works on unsorted array
+// Solution 1 - Brute Force O(n^2) time and O(1) space - works on unsorted array
 const sumTwoNumbers = (numbersArray, target) => {
     for (let i = 0; i < numbersArray.length; i++) {
         for (let j = i + 1; j < numbersArray.length; j++) {
