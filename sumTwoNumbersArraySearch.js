@@ -8,7 +8,6 @@
 const sumTwoNumbers = (numbersArray, target) => {
     for (let i = 0; i < numbersArray.length; i++) {
         for (let j = i + 1; j < numbersArray.length; j++) {
-            console.log("VALUES OF I AND J", { i: numbersArray[i], j: numbersArray[j] })
             if (numbersArray[i] + numbersArray[j] === target) {
                 return [i + 1, j + 1]
             }
